@@ -2,7 +2,7 @@
 layout: default
 title: キャンプ＆富士急ハイランド　計画
 toc:
-  - title: キャンプ＆富士急ハイランド　計画
+  - title: キャンプ＆富士急の計画
     id: overview
     level: 1
   - title: 日時
@@ -16,7 +16,7 @@ toc:
     level: 2
 ---
 
-# キャンプ＆富士急ハイランド　計画 {#overview}
+# キャンプ＆富士急の計画 {#overview}
 ## 日時 {#date}
 10月26日(月)~10月28日(水)<br>
 集合時間：10月26日(月)？？時<br>
