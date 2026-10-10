@@ -14,13 +14,13 @@
 
   <nav class="page-tabs" aria-label="ページ切り替え">
     <a
-      href="{{ '/' | relative_url }}"
+      href="{{ '/pages/overview.markdown-body' | relative_url }}"
       {% if page.url == '/' %}aria-current="page"{% endif %}
     >01　旅行計画</a>
     <a
-      href="{{ '/pages/second.html' | relative_url }}"
+      href="{{ '/pages/camp.markdown-body' | relative_url }}"
       {% if page.url == '/pages/second.html' %}aria-current="page"{% endif %}
-    >02　追加ページ</a>
+    >02　キャンプ</a>
   </nav>
 
   <div class="layout">

@@ -9,7 +9,7 @@ toc:
     id: outline
     level: 2
   - title: 必要なもの(見積)
-    id: essebtials
+    id: essentials
     level: 2
   - title: 注意事項
     id: caution
@@ -64,6 +64,3 @@ toc:
 - 風呂
  - 管理棟お風呂(500円)の営業時間は9時～19時(最終受付18時半)
  - ボディタオル・歯ブラシは販売あり、バスタオルはレンタル(330円)あり
-
-
-- 
