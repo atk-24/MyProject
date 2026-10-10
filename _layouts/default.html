@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">TRIP PLAN</a>
+    <span class="header-subtitle">キャンプ旅行の計画</span>
+  </header>
+
+  <nav class="page-tabs" aria-label="ページ切り替え">
+    <a
+      href="{{ '/' | relative_url }}"
+      {% if page.url == '/' %}aria-current="page"{% endif %}
+    >01　旅行計画</a>
+    <a
+      href="{{ '/pages/second.html' | relative_url }}"
+      {% if page.url == '/pages/second.html' %}aria-current="page"{% endif %}
+    >02　追加ページ</a>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <p class="sidebar-heading">目次</p>
+      <nav class="toc" aria-label="記事内目次">
+        {% for item in page.toc %}
+        <a
+          class="toc-level-{{ item.level }}"
+          href="#{{ item.id }}"
+        >{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <article>
+        {{ content }}
+      </article>
+    </main>
+  </div>
+</body>
+</html>
