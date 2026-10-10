@@ -1,0 +1,5 @@
+title: 旅行計画
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  toc_levels: 1..2
