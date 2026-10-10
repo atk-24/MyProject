@@ -15,9 +15,9 @@ toc:
 # ToDo {#ToDo}
 ## 個人タスク {#personal}
 - [ ] 富士急のチケットを買う
-- [ ] 新幹線を予約する（時間は関西組で話し合ってもらって）
-- [ ] 免許証を忘れない
-- [ ] 立て替えた分のお金もお手すきの際に振込お願いいたします
+- [ ] 新幹線のチケット（時間は関西組で話し合ってもらって）
+- [ ] 免許証を持ってくる
+- [ ] 立て替えた分の振込も、お手すきの際にお願いいたします
 
 |項目|価格|一人あたり|
 |-----|-----|-----|
@@ -31,5 +31,13 @@ toc:
 - [ ] 集合時刻
 - [ ] Day2にどこに行くのかを決める
 - [ ] キャンプに持参するものを決める
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('input[type="checkbox"]').forEach(function (checkbox) {
+    checkbox.removeAttribute('disabled');
+  });
+});
+</script>
 
 
