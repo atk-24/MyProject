@@ -129,7 +129,7 @@ a:hover {
 }
 
 .toc a:hover {
-  background: #e6edf6;
+  background: #aeccf2;
   text-decoration: none;
 }
 
@@ -208,9 +208,11 @@ th { background: var(--sidebar-bg); font-weight: 700; }
     border-bottom: 1px solid var(--border);
   }
 
+  /* スマホの目次は1列にする */
   .toc {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+    grid-template-columns: 1fr;
+    gap: 2px;
+}
 
   .main-content {
     margin-left: 0;
