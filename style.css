@@ -123,13 +123,13 @@ a:hover {
 .toc a {
   display: block;
   padding: 7px 10px;
-  color: #475569;
+  color: #02cda1;
   border-radius: 6px;
   font-size: 13px;
 }
 
 .toc a:hover {
-  background: #aee9f2;
+  background: #a8cd02;
   text-decoration: none;
 }
 
