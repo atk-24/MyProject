@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: キャンプ＆富士急ハイランド　計画
@@ -17,13 +16,13 @@ toc:
     level: 2
 ---
 
-# キャンプ＆富士急ハイランド　計画 {:#overview}<br>
-## 日時 {:#date}<br>
+# キャンプ＆富士急ハイランド　計画{#overview} <br>
+## 日時{#date}<br>
 10月26日(月)~10月28日(水)<br>
 集合時間：10月26日(月)？？時<br>
 集合場所：新富士駅
 
-## スケジュール {#schedule}
+## スケジュール{#schedule} 
 - 10月26日(月)<br>
   **昼**
   - レンタカーで移動（新富士→キャンプ場）
@@ -41,7 +40,7 @@ toc:
 - 10月28日(水)
     - 富士急ハイランド
 
-## 参考 {:#reference}
+## 参考 {#reference}
 - [浩庵キャンプ場](https://kouan-motosuko.com/index.html)
 
 - [Jネットレンタカー新富士駅前店](https://www.j-netrentacar.co.jp/shizuoka/shinfuji-st/)
