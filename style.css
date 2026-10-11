@@ -6,7 +6,7 @@
   --text: #253247;
   --muted: #718096;
   --border: #e2e8f0;
-  --accent: #033e6e;
+  --accent: #0169bf;
   --sidebar-bg: #f6f8fb;
 }
 
@@ -129,7 +129,7 @@ a:hover {
 }
 
 .toc a:hover {
-  background: #508cbd;
+  background: #8fcdff;
   text-decoration: none;
 }   
 
